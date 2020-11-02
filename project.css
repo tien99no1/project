@@ -333,7 +333,7 @@ overflow:hidden;
 .title {
    padding: 10px 12px;
    text-align: center;
-   font-size: 36px;
+   font-size: 22px;
    color: #212121;
 }
 .content{
@@ -462,6 +462,42 @@ img.hinh {
     width: 190px;
   }
 }
+@media (max-width: 768px){
+  #mynav a img {
+    width: 80%;
+}
+ h1, h2, h3 {
+    font-size: 1.70rem;
+  }
+  h4 {
+    font-size: 1rem;
+}
+  .infor {
+    font-size: 19px;
+}
+button{
+    font-size: 80%!important;
+  }
+  #accordion .panel-title button {
+    padding: 7px;
+  }
+  .caption {
+    bottom: 70px;
+}
+.cap {
+    bottom: 35px;
+}
+.yt {
+    font-size: 40px;
+}
+.form-control {
+    font-size: 0.75rem;
+  }
+  .my-2{
+    font-size: 0.75rem;
+  }
+
+}
 @media (max-width: 576px){
   .col{
     align-items: center;
@@ -486,7 +522,7 @@ button{
     padding: 7px;
   }
   .caption {
-    bottom: 30px;
+    bottom: 27px;
 }
 .infor {
     font-size: 17px;
@@ -733,6 +769,8 @@ footer{
 }
 .bottom{
   padding: 50px 0;
-
+}
+.bottom span{
+  cursor: pointer;
 }
 
