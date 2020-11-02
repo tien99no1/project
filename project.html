@@ -28,7 +28,7 @@
 </head>
 <body>
 	<header id="header" class="fixed-top header-transparent">
-		<nav class="navbar navbar-expand-lg navbar-light  bar">
+		<nav id="mynav" class="navbar .navbar-fixed-top navbar-expand-lg navbar-light  bar">
   <a class="logo mr-auto" href="project.html"><img src="images/f1fea105-3e8d-4342-9255-7eb64869c833_200x200.png" alt=""></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" 
 					data-target="#navbarResponsive">
@@ -64,6 +64,19 @@
   </div>
 </nav>
   </header> 
+  <script type="text/javascript">
+  var nav = document.querySelector('nav'); // Identify target
+
+window.addEventListener('scroll', function(event) { // To listen for event
+    event.preventDefault();
+
+    if (window.scrollY <= 150) { // Just an example
+        nav.style.backgroundColor = 'transparent'; // or default color
+    } else {
+        nav.style.backgroundColor = '#000000d1';
+    }
+});
+  </script>
    <section id="intro">
     <div class="intro-container">
 	<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
@@ -205,6 +218,7 @@
         
 
       </div>
+      <br>
       
     </section>
     <section id="mv">
@@ -218,7 +232,7 @@ She is one of the best music video makers</p>
     </div>
         <div class="container">
           <div class="row">
-            <div class="col-9 mx-auto box">
+            <div class="col-10 mx-auto box">
          
           <div id="carousel-example-1" class="carousel slide carousel-fade" data-ride="carousel">
   <!--Indicators-->
@@ -759,7 +773,7 @@ I am honored to be featured in Taylor's songs. I don't care about tabloids.
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-12 col-sm-6 col-lg-3">
+        <div class="col col-12 col-sm-6 col-lg-3">
       <figure class="snip1401">
   <img src="images/ladyagag.jpg" alt="sample67" />
   <figcaption>
@@ -770,7 +784,7 @@ I am honored to be featured in Taylor's songs. I don't care about tabloids.
   <a href="#"></a>
 </figure>
 </div>
-<div class="col-12 col-sm-6 col-lg-3">
+<div class="col col-12 col-sm-6 col-lg-3">
 <figure class="snip1401"><img src="images/katy.jpg" alt="sample87" />
   <figcaption>
     <h3>Katy Pery</h3>
@@ -780,7 +794,7 @@ I am honored to be featured in Taylor's songs. I don't care about tabloids.
   <a href="#"></a>
 </figure>
 </div>
-<div class="col-12 col-sm-6 col-lg-3">
+<div class="col col-12 col-sm-6 col-lg-3">
 <figure class="snip1401"><img src="images/adele.jpg" alt="sample87" />
   <figcaption>
     <h3>Adele</h3>
@@ -790,7 +804,7 @@ I am honored to be featured in Taylor's songs. I don't care about tabloids.
   <a href="#"></a>
 </figure>
 </div>
-<div class="col-12 col-sm-6 col-lg-3">
+<div class="col col-12 col-sm-6 col-lg-3">
 <figure class="snip1401"><img src="images/rihanna.jpg" alt="sample87" />
   <figcaption>
     <h3>Rihanna</h3>
@@ -884,6 +898,15 @@ I am honored to be featured in Taylor's songs. I don't care about tabloids.
 
    <script type="text/javascript" src="js/validate.js"></script>
  </section>
+ <footer>
+    <div class="text-center bottom">
+    <span style="color: #18d26e">
+    <i class="fa fa-facebook-square" aria-hidden="true"></i> <i class="fa fa-youtube-play" aria-hidden="true"></i> <i class="fa fa-spotify" aria-hidden="true"></i> <i class="fa fa-google-plus-square" aria-hidden="true"></i> <i class="fa fa-twitter-square" aria-hidden="true"></i> <i class="fa fa-instagram" aria-hidden="true"></i>
+    </span>
+    <p>copyright © 2020. Lover by QuocTien</p>  
+    </div>
+  </footer>
+
 
 
     <a class="on_top" href="#intro"><i class="fa-arrow-circle-up fa"></i></a>
