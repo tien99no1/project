@@ -425,8 +425,11 @@ img.hinh {
 
 }
 @media (max-width: 992px) {
-  h1, h2, h3 {
+  h1, h2 {
     font-size: 2rem;
+  }
+  h3{
+    font-size: 1.6rem;
   }
   body{
     font-size: 95%;
@@ -464,13 +467,13 @@ img.hinh {
 }
 @media (max-width: 768px){
   #mynav a img {
-    width: 80%;
+    width: 68%;
 }
- h1, h2, h3 {
+ h1, h2 {
     font-size: 1.70rem;
   }
-  h4 {
-    font-size: 1rem;
+ h3, h4 {
+    font-size: 1.2rem;
 }
   .infor {
     font-size: 19px;
@@ -491,7 +494,7 @@ button{
     font-size: 40px;
 }
 .form-control {
-    font-size: 0.75rem;
+    font-size: 0.65rem;
   }
   .my-2{
     font-size: 0.75rem;
@@ -509,12 +512,19 @@ button{
     justify-content: center;
     display: flex;
 }
+#mynav a img {
+    width: 65%;
+}
 .img{
   width: 70%;
 }
-h1, h2, h3{
+h1, h2{
   font-size: 1.25rem;
 }
+ h3, h4 {
+    font-size: 1rem;
+}
+
 button{
     font-size: 80%!important;
   }
@@ -534,7 +544,7 @@ button{
     font-size: 36px;
 }
 .form-control {
-    font-size: 0.75rem;
+    font-size: 0.6rem;
   }
   .my-2{
     font-size: 0.75rem;
